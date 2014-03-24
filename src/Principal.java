@@ -413,6 +413,7 @@ class Usuario{
                             Logger.getLogger(Usuario.class.getName()).log(Level.SEVERE, null, ex);
                         }
                     }else{
+                        
                         try {
                             ps = Principal.con.prepareStatement("INSERT INTO usuarios VALUES(?, ?)");
                             ps.setString(1, login);
