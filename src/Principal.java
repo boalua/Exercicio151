@@ -314,7 +314,8 @@ private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRS
             public void run() {
                 new Principal().setVisible(true);
             }
-        });
+        }); 
+        
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
